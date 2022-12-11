@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>aos</title>
+  </head>
+  <body>
+    <div class="main-container_aos">Scroll Down Please</div>
+    <div class="main-container_aos black_bg">
+      <div
+        class="simatated_container2"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        some text
+      </div>
+      <div class="o" data-aos="fade-right">fade right</div>
+    </div>
+    <div class="main-container_aos white_bg">
+      <div
+        class="simatated_container3"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        some text
+      </div>
+      <div class="o" data-aos="fade-left">fade left</div>
+      <div
+        class="o"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
+        fade up
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

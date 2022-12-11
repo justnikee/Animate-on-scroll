@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* overflow: hidden; */
+}
+
+.main-container_aos {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.simatated_container2,
+.simatated_container3,
+.o {
+  height: 150px;
+  width: 150px;
+  background-color: brown;
+  border: 5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black_bg {
+  background: rebeccapurple;
+}
+
+.white_bg {
+  background: greenyellow;
+}
